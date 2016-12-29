@@ -14,8 +14,3 @@
  - ./histmatch -i  \<path/to/source_image\>  \<path/to/target/hist_image\>
  - ./histmatch -f \<path/to/source_image\>  \<path/to/taget/hist_file\>
 - Language: C++
-
-#### equalizehist.cpp: Performs a histogram equalization on the inputted image
-- Required Arguments: image file
-- Usage Example: ./equalizehist path/to/image
-- Language: C++
