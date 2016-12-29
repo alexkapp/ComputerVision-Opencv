@@ -6,14 +6,15 @@ Opencv Projects
 - histogram.h: Header File containing function prototypes
 - histogram.cpp: Implementation File containing function definititions
 - histmatch.cpp: Program Driver: Matches the histogram of a source image with a target histogram
+ - Required Arguments: 1 option (-f or -i), target_hist_file, source_image
+ - Options:
+  - -i: target histogram is that of an image
+  - -f: target histogram is that of a file containing a list of integers [0-255] (1 per line) representing pixel values
+ - Useage Examples:
+  - ./histmatch -i path/to/source_image path/to/target/hist_image
+  - ./histmatch -f path/to/source_image path/to/taget/hist_file
 - Language: C++
-- Required Arguments: 1 option (-f or -i), target_hist_file, source_image
-- Options:
- - -i: target histogram is that of an image
- - -f: target histogram is that of a file containing a list of integers [0-255] (1 per line) representing pixel values
-- Useage Examples:
- - ./histmatch -i path/to/source_image path/to/target/hist_image
- - ./histmatch -f path/to/source_image path/to/taget/hist_file
+
 ## bitplanes.cpp
 ### Splits an 8-bit grayscale image into 8 seperate bit plane images and displays each bit plane plus the source image.
 - Language: c++
