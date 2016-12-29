@@ -29,3 +29,10 @@ Opencv Projects
 - Usage Example:
  - ./smooth_filter path/to/image
  - ./smooth_filter -r 64 -k 7 path/to/image
+
+## zoom.cpp
+### Uses a mouse callback function to specify an image ROI to zoom in on, and then puts the zoomed ROI back into the source image.
+- Language: C++
+- Required Arguments: image file
+- Optional arguments: -z [int]: changes zoom factor (default: 5)
+- Usage Example: ./zoom -z 3 path/to/image
