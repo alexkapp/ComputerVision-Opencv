@@ -20,12 +20,12 @@ Opencv Projects
 - Usage Example: ./enhance path/to/image
 
 ## smooth_filter.cpp
-### Uses a circular kernel to smooth an image. The kernel's coefficients are based on the resolution and distance from the center of the kernel.
+### Uses a circular kernel to smooth an image. The kernel's coefficients are based on the kernel's resolution and distance from the center.
 - Language: C++
 - Required Arguments: image file
 - Optional Arguments: 
  - -r [int]: changes resolution (default: 1024)
  - -k [int]: changes kernel size (default: 5)
 - Usage Example:
-- - ./smooth_filter path/to/image
-- - ./smooth_filter -r 64 -k 7 path/to/image
+ - ./smooth_filter path/to/image
+ - ./smooth_filter -r 64 -k 7 path/to/image
