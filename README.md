@@ -2,9 +2,10 @@
 Opencv Projects
 
 ## histogram specification
-### histogram.h: Header File containing function prototypes
-### histogram.cpp: Implementation File containing function definititions
-### histmatch.cpp: Matches the histogram of a source image with a target histogram
+### Files:
+- histogram.h: Header File containing function prototypes
+- histogram.cpp: Implementation File containing function definititions
+- histmatch.cpp: Program Driver: Matches the histogram of a source image with a target histogram
 - Language: C++
 - Required Arguments: 1 option (-f or -i), target_hist_file, source_image
 - Options:
