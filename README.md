@@ -24,8 +24,8 @@ Opencv Projects
 - Language: C++
 - Required Arguments: image file
 - Optional Arguments: 
-- - -r [int]: changes resolution (default: 1024)
-- - -k [int]: changes kernel size (default: 5)
+ - -r [int]: changes resolution (default: 1024)
+ - -k [int]: changes kernel size (default: 5)
 - Usage Example:
 - - ./smooth_filter path/to/image
 - - ./smooth_filter -r 64 -k 7 path/to/image
