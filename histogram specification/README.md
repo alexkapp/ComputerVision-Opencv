@@ -2,7 +2,7 @@
 #### histogram.h: Header File
 - Contains function prototypes
 #### histogram.cpp: Implementation File
- - Contains function definititions for "histogram.h"
+- Contains function definititions for "histogram.h"
 #### histmatch.cpp: Matches the histogram of the source image to a target histogram
 - Required Arguments: 1 option (-f or -i), target_hist_file, source_image
 - Options:
